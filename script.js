@@ -8,7 +8,7 @@ function toggleMode() {
   //substituir a imagem
   if (html.classList.contains("light")) {
     //se tiver light mode, adicionar o avatar-light
-    img.setAttribute("src", "./assets/Avatar-light.png.png")
+    img.setAttribute("src", "./assets/Avatar-light.png")
     img.setAttribute(
       "alt",
       "Foto de Amanda Lopes sorrindo, com iluminação clara e fundo branco, com um óculos escuro escrito Changer nas lentes."
