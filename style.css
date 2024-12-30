@@ -24,16 +24,8 @@ html {
 }
 
 body {
-  background: var(--bg-url) no-repeat center center/cover;
+  background: var(--bg-url) no-repeat top center/cover;
   height: 100vh;
-  margin: 0;
-  padding: 0;
-}
-
-@media (min-width: 430px) and (max-width: 633px) {
-  body {
-    background-size: auto; /* Ajusta o tamanho da imagem para não cortar */
-  }
 }
 
 body * {
